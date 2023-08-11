@@ -28,6 +28,7 @@ body {
     width: 100%;
     height: 100%;
     background: #231F20;
+    background-size: contain;
 }
 #loading-cover {
     position: absolute;
@@ -41,6 +42,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    transform: translate(-50%);
 }
 #unity-loading-bar {
     flex: 1 1 auto;
